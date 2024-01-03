@@ -1,0 +1,17 @@
+---
+name: saltlint
+description:
+  Ansible Lint is a command-line tool for linting playbooks, roles and collections aimed toward any Ansible users.
+homepage: https://github.com/warpnet/salt-lint
+licenses:
+  - MIT
+languages:
+  - Salt
+categories:
+  - Linter
+
+source:
+  id: pkg:pypi/salt-lint@0.9.2
+
+bin:
+  ansible-lint: pypi:salt-lint
